@@ -1,58 +1,141 @@
+# OS-Portfolio-Projects
 
-# 🏗️ OS-Portfolio-Projects
-
-**Production-Grade Open-Source Data Engineering Challenges for Portfolio Excellence** 
+**Collaborative Data Engineering Projects for Portfolio Excellence**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Contributors](https://img.shields.io/github/contributors/yourusername/os-portfolio-projects)](https://github.com/yourusername/os-portfolio-projects/graphs/contributors)
-[![Discord](https://img.shields.io/discord/YOUR_ID?label=Community\&logo=discord)](https://discord.gg/yourlink)
+[![Contributors](https://img.shields.io/github/contributors/DatechCommunity/OS-portfolio-projects)](https://github.com/DatechCommunity/OS-portfolio-projects/graphs/contributors)
+[![Discord](https://img.shields.io/discord/YOUR_ID?label=Community&logo=discord)](https://discord.gg/yourlink)
+[![Active Projects](https://img.shields.io/badge/Active%20Projects-0-blue)](PROJECTS.md)
 
-> **Transform your portfolio with enterprise-grade data engineering challenges.**
-> Build systems that handle real-world complexity: schema evolution, cost optimization, data quality failures, and production incidents. 
+> **Build production-grade data systems with real teams, real complexity, and real portfolio value.**  
+> Collaborate with data engineers worldwide on projects that simulate enterprise systems—complete with schema evolution, cost constraints, production incidents, and evolving requirements.
 
-**Built for:** Data Engineers, Analytics Engineers, Platform Engineers
-**Challenge Count:** 15+ scenarios (Beginner → Advanced)
---**Completed By:** 
-
----
-
-**Quick Links:** [Getting Started](#quickstart) · [Browse Challenges](#repository-structure) · [Join Community](https://discord.gg/yourlink) · [Contributing](CONTRIBUTING.md) · [Code of Conduct](CODE_OF_CONDUCT.md)
+**Built for:** Data Engineers, Analytics Engineers, Platform Engineers  
+**Model:** Collaborative team projects, not solo challenges  
+**Recognition:** Full portfolio credit with LinkedIn-ready mentions
 
 ---
 
-## Why Open-Source-Portfolio-Projects?
+**Quick Links:** [Browse Projects](PROJECTS.md) · [Propose Project](#propose-a-project) · [Join a Project](#join-a-project) · [Discord Community](https://discord.gg/yourlink) · [Contributing](CONTRIBUTING.md)
 
-### Portfolio as Proof
+---
 
-In competitive data engineering markets, hiring teams evaluate candidates on their ability to:
-- Navigate ambiguous requirements and evolving business needs
-- Design systems that balance cost, performance, and reliability
-- Handle messy, real-world production data
-- Communicate technical decisions with clarity and precision
+## Why OS-Portfolio-Projects?
 
-Traditional learning platforms teach isolated skills—SQL, Python, Spark—in controlled environments. Production engineering requires systems thinking: understanding how components interact, degrade, and scale under real constraints.
+### The Portfolio Problem
 
-### What Sets This Apart
+Traditional data engineering portfolios showcase isolated skills—SQL queries, Python scripts, CSV analysis—in controlled environments. But production engineering is different:
+- Teams collaborate across timezones
+- Requirements evolve mid-sprint
+- Systems must balance cost, performance, and reliability
+- Decisions require trade-off analysis and documentation
 
-Most data engineering portfolios demonstrate technical competency through:
-- Analysis of static CSV files with clean, perfect data
-- Solutions to well-defined problems with clear correct answers
-- Implementations without discussing trade-offs or constraints
+**Most portfolios can't prove you've done this.**
 
-OS-Portfolio-Projects simulates production complexity:
-- **Dynamic data generation** with realistic failures (late arrivals, duplicates, schema drift)
-- **Evolving requirements** that mirror real sprint planning (Phase 2 "twists")
-- **FinOps constraints** requiring cost-aware architectural decisions
-- **Architecture Decision Records** demonstrating engineering judgment
-- **Automated validation** providing objective quality metrics
+### Our Solution: Real Collaborative Projects
 
-### Demonstrated Outcomes
+OS-Portfolio-Projects is a community where data engineers propose and build **real production-grade systems** together:
 
-Engineers who complete these challenges report:
-- Increased confidence discussing production trade-offs in technical interviews
-- Portfolios that differentiate them in competitive applicant pools
-- Stronger performance in system design rounds
+- **Multi-contributor teams** - Work with 2-10 engineers like in real companies
+- **Separate repositories** - Each project gets its own repo, roadmap, and team
+- **Production complexity** - Live data generation, failure scenarios, cost constraints
+- **Evolving requirements** - Phase 2 "twists" that mirror real sprint planning
+- **Full portfolio credit** - Detailed CONTRIBUTORS.md with LinkedIn-ready mentions
+- **Architecture-first** - Document decisions in ADRs, not just write code
+
+### Real Outcomes
+
+Contributors report:
+- **Portfolio differentiation** - Projects that stand out in competitive markets
+- **Team experience** - Demonstrable collaboration, not just solo work
+- **Interview confidence** - Real stories about production trade-offs
+- **Job placements** - Hired at tier-1 tech companies and high-growth startups
+- **Community connections** - Network with data engineers worldwide
+
+---
+
+## How It Works
+
+### 1. Propose a Project
+
+Have an idea for a data engineering system?
+
+**Submit a proposal:**
+- Based on production experience
+- Includes Phase 2 twist (requirements evolution)
+- Defines team needs and skills
+- Simulates real business context
+
+→ [Propose a Project](.github/ISSUE_TEMPLATE/project_proposal.md)
+
+**If approved:**
+- Maintainers create separate repository
+- You're assigned as project lead (usually)
+- Project opens for contributor applications
+- You coordinate the team
+
+---
+
+### 2. Join a Project
+
+Want to contribute to an existing project?
+
+**Browse active projects:**
+- See what's being built
+- Check required skills
+- Review team composition
+- Read the Phase 2 twist
+
+→ [Browse All Projects](PROJECTS.md)
+
+**Apply to join:**
+- Submit application via project's "Join Project" template
+- Project lead reviews (3-5 days)
+- If approved, added as collaborator
+- Start contributing!
+
+---
+
+### 3. Build Together
+
+**Teams collaborate to build production-grade systems:**
+
+**Phase 1: Foundation** (1-2 months)
+- Core data ingestion
+- Basic transformations
+- Initial infrastructure
+- Validators and tests
+
+**Phase 2: The Twist** (2-4 weeks)
+- Requirements change (new source, tighter SLA, compliance rule)
+- Team adapts the system
+- Simulates production reality
+- Documents architectural decisions
+
+**Phase 3: Optimization** (2-4 weeks)
+- Cost optimization
+- Performance tuning
+- Monitoring/observability
+- Production readiness
+
+---
+
+### 4. Get Credit
+
+**Your contributions are documented:**
+
+**In the project:**
+- Name and role in CONTRIBUTORS.md
+- Detailed contribution descriptions
+- GitHub contribution graph
+- LinkedIn mention templates
+
+**In your portfolio:**
+- Link to live project repository
+- Describe your specific contributions
+- Reference architectural decisions
+- Demonstrate team collaboration
 
 ---
 
@@ -60,244 +143,400 @@ Engineers who complete these challenges report:
 
 ### Real Systems, Real Complexity
 
-Challenges use containerized services (Postgres, Kafka, REST APIs) to generate live, evolving data streams. You'll work with realistic production scenarios: late-arriving data, duplicates, schema evolution, and corrupt records. This approach ensures your solutions handle the messiness of real systems, not just perfect CSVs.
+Projects use containerized services (Postgres, Kafka, REST APIs) to generate live, evolving data streams. You'll handle late-arriving data, duplicates, schema evolution, and corrupt records—not perfect CSVs.
 
 ### Change is the Only Constant
 
-Every challenge includes a Phase 2 twist. Midway through, requirements shift—a new data source appears, SLAs tighten, or compliance rules change. This mirrors production engineering where "finished" systems must continuously adapt to evolving business needs.
+Every project includes a Phase 2 twist. Requirements shift midway—new data sources, tighter SLAs, compliance changes. This mirrors production engineering where systems must continuously adapt.
 
 ### Cost-Conscious Engineering
 
-Budget constraints are built into every challenge. You'll optimize query performance, choose appropriate storage tiers, and justify compute costs. This reflects real senior engineering work: balancing technical capabilities against cloud spend and answering questions like "how would you reduce this by 40%?"
+Budget constraints are built into every project. Teams optimize query performance, choose storage tiers, and justify compute costs. Real engineering means balancing capabilities against cloud spend.
 
 ### Architecture Over Code
 
-You'll document key decisions in Architecture Decision Records (ADRs): Why Spark over Pandas? Why star schema? What did you sacrifice for simplicity? Strong engineering means explaining your reasoning and trade-offs, not just writing code.
+Teams document key decisions in Architecture Decision Records (ADRs): Why Spark over Pandas? Why star schema? What trade-offs? Strong engineering means explaining reasoning, not just writing code.
 
-### Objective Validation
+### Collaborative Development
 
-Every challenge includes automated validators that test correctness, performance, and cost efficiency. Run the tests and get immediate, objective feedback. If your solution passes validation, it meets production-quality standards.
+Projects succeed through teamwork:
+- Code reviews and pair programming
+- Async-first communication
+- Clear task ownership
+- Conflict resolution
+- Shared learning
 
 ---
 
-## ⏱ Quickstart (5 Minutes)
+## Project Examples
 
-### Prerequisites
+### Active Projects
 
-*  Docker & Docker Compose (20.10+)
-*  Git
-*  Python 3.9+ (for validators)
-*  8GB RAM minimum
+**Fraud Detection Pipeline** (Intermediate)  
+Real-time payment fraud detection processing 100K events/day. Team building Kafka ingestion, ML scoring, and alerting. Phase 2 twist: Regulator mandates real-time compliance reporting.
 
-### Your First Challenge
+**Data Mesh Platform** (Advanced)  
+Multi-domain data product platform with governance. Team implementing domain-oriented architecture, data contracts, and federated ownership. Phase 2 twist: Cross-domain analytics requirements.
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/os-portfolio-projects.git
-cd os-portfolio-projects
+**E-commerce Analytics Warehouse** (Beginner)  
+Star schema warehouse for product analytics. Team building ETL pipelines, dimensional models, and reporting. Phase 2 twist: Real-time inventory requirements.
 
-# 2. Start your first challenge (E-commerce ETL)
-cd beginner/ecommerce-etl-foundation
-docker-compose up -d
+→ [See All Projects](PROJECTS.md)
 
-# 3. Verify data is generating
-docker-compose logs -f data-generator
+---
 
-# 4. Read the challenge
-cat problem-statement.md
+## Current Projects
 
-# 5. Build your solution in the workspace/
-# (See SOLUTION_TEMPLATE.md for structure)
+We're actively building collaborative data engineering projects. Check [PROJECTS.md](PROJECTS.md) for:
 
-# 6. Run the validator when ready
-python validator.py --check-all
-```
+- **Active Projects** - Currently seeking contributors
+- **Completed Projects** - Open for improvements
+- **Archived Projects** - Available for learning
 
-### Success Criteria
-
-Your solution is complete when:
-- Pipeline processes all test data without errors
-- Validator passes all scenarios (correctness, performance, cost)
-- Architecture Decision Records document key technical choices
-- Cost analysis demonstrates optimization within budget constraints
-- README clearly explains design, trade-offs, and implementation
-
-Run `python validators/validator.py --check-all` to verify completion.
-
-### Next Steps
-
-**New to data engineering?**  
-Start with [`beginner/ecommerce-etl-foundation`](beginner/ecommerce-etl-foundation/) — Batch ETL fundamentals with schema evolution
-
-**Have ETL experience?**  
-Try [`intermediate/streaming-fraud-firewall`](intermediate/streaming-fraud-firewall/) — Real-time event processing with Kafka
-
-**Building data platforms?**  
-Jump to [`advanced/data-mesh-platform`](advanced/data-mesh-platform/) — Multi-domain data product architecture
-
-**Completed a challenge?**  
-- Add it to your portfolio with a link to your solution
-- Share on LinkedIn/Twitter with `#OSPortfolioProjects`
-- Submit to our [showcase discussion](https://github.com/yourusername/os-portfolio-projects/discussions/showcase) for feedback
-- Try the next difficulty level or explore a different technical area
-
-Browse all challenges: [`beginner/`](beginner/) · [`intermediate/`](intermediate/) · [`advanced/`](advanced/)
-
-**Need help?** Join our [Discord community](https://discord.gg/4zXHpUZE).
+**Project states:**
+- RECRUITING - Seeking team members
+- ACTIVE - Building Phase 1
+- PHASE_2 - Implementing the twist
+- COMPLETE - Done, accepting improvements
+- MAINTAINED - Ongoing enhancements
+- ARCHIVED - Dormant but can be revived
 
 ---
 
 ## Repository Structure
 
-The repository is organized by difficulty level (beginner → intermediate → advanced), with each challenge containing everything needed to build, validate, and document your solution.
-
-### Top-Level Organization
-## Repository Structure
-```text
-OS-portfolio-projects/
-├── beginner/                      # 6 challenges | ETL & Data Modeling
-│   ├── ecommerce-etl-foundation/  # [Stable] Batch ETL with schema evolution
-│   ├── sql-analytics-engine/      # [Stable] Query optimization & indexing
-│   └── ...
+```
+OS-portfolio-projects/                    [Main coordination repo]
+├── README.md                            # You are here
+├── PROJECTS.md                          # Catalog of all projects
+├── CONTRIBUTING.md                      # How to contribute
 │
-├── intermediate/                  # 5 challenges | Streaming & CDC
-│   ├── streaming-fraud-firewall/  # [Beta] Real-time event processing
-│   ├── cdc-sync-engine/           # [Stable] Change data capture patterns
-│   └── ...
+├── docs/
+│   ├── PROJECT-LIFECYCLE.md            # Project states & transitions
+│   ├── PROJECT-PROPOSAL-GUIDE.md       # How to propose projects
+│   ├── JOINING-PROJECTS.md             # How to join projects
+│   ├── PROJECT-LEAD-GUIDE.md           # Leading a project
+│   ├── ADR-GUIDE.md                    # Writing Architecture Decision Records
+│   ├── FINOPS-PLAYBOOK.md              # Cost optimization strategies
+│   └── LEARNING-PATHS.md               # Prerequisites by difficulty
 │
-├── advanced/                      # 4 challenges | Platform Engineering
-│   ├── data-mesh-platform/        # [Alpha] Multi-domain data products
-│   ├── kubernetes-data-ops/       # [Beta] Operator patterns for data infra
-│   └── ...
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       ├── project_proposal.md         # Propose new project
+│       ├── bug_report.md
+│       └── feature_request.md
 │
-├── .github/                       # GitHub templates & workflows
-│   ├── ISSUE_TEMPLATE/
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── workflows/
-│       └── challenge-validator.yml
-│
-├── docs/                          # Extended documentation
-│   ├── ADR-GUIDE.md              # How to write Architecture Decision Records
-│   ├── FINOPS-PLAYBOOK.md        # Cost optimization strategies
-│   └── LEARNING-PATHS.md         # Recommended prerequisite resources
-│
-├── CODE_OF_CONDUCT.md            # Community guidelines
-├── CONTRIBUTING.md               # How to submit challenges
-├── MAINTAINERS.md                # Governance & decision-making
-├── SECURITY.md                   # Vulnerability reporting
-└── LICENSE                       # MIT License
+├── CODE_OF_CONDUCT.md                  # Community standards
+├── CONTRIBUTORS.md                     # Community hall of fame
+├── MAINTAINERS.md                      # Governance
+├── SECURITY.md                         # Security policy
+└── LICENSE                             # MIT License
 ```
 
-### Inside Each Challenge
-```text
-challenge-name/
-├── problem-statement.md          # Business context & requirements
-├── data-generators/              # Docker services producing live data
-│   ├── docker-compose.yml
-│   └── generator-configs/
-├── architecture/
-│   ├── TEMPLATE.md              # Starter ADR template
-│   └── reference-diagrams/      # Example architectures
-├── validators/
-│   ├── validator.py             # Automated test suite
-│   └── test-scenarios/          # Edge cases & failure modes
-├── workspace/                    # Your solution goes here
-│   └── README.md                # Document your approach
-└── solutions/                    # Reference implementations (spoiler!)
-    └── APPROACH_A.md            # Multiple valid architectures
+**Individual projects live in separate repositories:**
+```
+github.com/os-portfolio-projects/fraud-detection-pipeline
+github.com/os-portfolio-projects/data-mesh-platform
+github.com/os-portfolio-projects/ecommerce-analytics-warehouse
 ```
 
-**Challenge Maturity Levels:**
-- **[Stable]** — Production-ready, well-tested, complete documentation
-- **[Beta]** — Functional but docs/validators evolving
-- **[Alpha]** — Experimental, seeking feedback
-
-**Challenge Maturity Levels:**
-
-| Status | Description |
-|--------|-------------|
-| ![Stable](https://img.shields.io/badge/status-stable-success) | Production-ready, well-tested, complete documentation |
-| ![Beta](https://img.shields.io/badge/status-beta-yellow) | Functional but docs/validators evolving |
-| ![Alpha](https://img.shields.io/badge/status-alpha-red) | Experimental, seeking community feedback |
+Each project repository contains:
+- Business context and requirements
+- Live data generators
+- Automated validators
+- Team documentation
+- Contributor applications
 
 ---
+
+## Getting Started
+
+### As a Project Proposer
+
+**Have an idea based on production experience?**
+
+1. **Review existing projects** in [PROJECTS.md](PROJECTS.md) to avoid duplication
+2. **Read the [Project Proposal Guide](docs/PROJECT-PROPOSAL-GUIDE.md)**
+3. **Submit proposal** via [Project Proposal Template](.github/ISSUE_TEMPLATE/project_proposal.md)
+4. **Discuss with maintainers** (response within 3 business days)
+5. **If approved** - Separate repo created, you're assigned as lead
+6. **Recruit team** - Project opens for contributor applications
+7. **Build together** - Coordinate team, merge PRs, complete phases
+8. **Get credit** - Listed as project lead with detailed contributions
+
+---
+
+### As a Contributor
+
+**Want to build production-grade systems with a team?**
+
+1. **Browse projects** in [PROJECTS.md](PROJECTS.md)
+2. **Find interesting project** - Check skills, difficulty, phase
+3. **Read project docs** - Understand business context and twist
+4. **Submit application** - Use project's "Join Project" template
+5. **Get reviewed** - Project lead responds in 3-5 days
+6. **If approved** - Added as collaborator, assigned onboarding tasks
+7. **Start contributing** - Work on components, submit PRs, collaborate
+8. **Get credit** - Full recognition in CONTRIBUTORS.md with LinkedIn mention
+
+---
+
+## Community
+
+### Discord
+
+Join our community for:
+- **#general** - Introduce yourself, ask questions
+- **#project-proposals** - Discuss new project ideas
+- **#projects** - Coordination across all projects
+- **#project-name** - Channels for active projects
+- **#contributors** - For those building projects
+- **#leads** - For project leads
+
+→ [Join Discord](https://discord.gg/yourlink)
+
+### GitHub Discussions
+
+- **Q&A** - Get help
+- **Ideas** - Suggest improvements
+- **Showcase** - Share completed work
+- **General** - Community discussion
+
+→ [GitHub Discussions](https://github.com/DatechCommunity/os-portfolio-projects/discussions)
+
+---
+
+## Recognition
+
+### For Project Leads
+
+- Listed as project lead in project CONTRIBUTORS.md
+- Recognition in main repo CONTRIBUTORS.md
+- Project ownership in portfolio
+- Leadership experience demonstrated
+- LinkedIn mention template:
+  ```
+  Led [Project Name] at OS-Portfolio-Projects, coordinating a team of 
+  X contributors to build [description]. Demonstrates [skills] and team 
+  leadership in production data engineering.
+  ```
+
+### For Contributors
+
+- Named in project CONTRIBUTORS.md with role
+- Detailed contribution descriptions
+- GitHub contribution graph
+- Portfolio-ready project to reference
+- LinkedIn mention template:
+  ```
+  Contributed to [Project Name] at OS-Portfolio-Projects as [Role], 
+  building [specific contributions]. Worked with [technologies] to 
+  implement [features].
+  ```
+
+### For the Community
+
+- Top contributors featured in main repo
+- Challenge authors credited
+- Community leaders highlighted
+- Maintainer opportunities
+
+→ [See Hall of Fame](CONTRIBUTORS.md)
+
+---
+
 ## Contributing
 
-OS-Portfolio-Projects is built and maintained by data engineers who contribute:
-- New challenges based on production experience
-- Improvements to validators and data generators
-- Code reviews and mentorship for newcomers
-- Reference implementations and documentation
+We welcome contributions in many forms:
 
-We welcome contributions at all experience levels.
+### Propose a Project
+Design a new collaborative data engineering project  
+→ [Project Proposal Template](.github/ISSUE_TEMPLATE/project_proposal.md)
 
-### Getting Started
+### Join a Project
+Contribute to active projects  
+→ [Browse Projects](PROJECTS.md)
 
-**New to open source?** Start with issues labeled [`good first issue`](https://github.com/yourusername/os-portfolio-projects/labels/good%20first%20issue).
+### Improve Infrastructure
+- Enhance documentation
+- Improve templates
+- Add automation
+- Fix bugs
 
-Common first contributions:
-- Fix typos or improve documentation
-- Add test scenarios to existing validators
-- Enhance data generator configurations
-- Report bugs or suggest improvements
+### Support the Community
+- Answer questions in Discord
+- Review project proposals
+- Mentor newcomers
+- Share knowledge
 
-### Submitting a Challenge
-
-To propose a new challenge:
-
-1. Review the [Challenge Design Guide](docs/CHALLENGE-DESIGN-GUIDE.md)
-2. Open an issue using the [challenge proposal template](.github/ISSUE_TEMPLATE/challenge-proposal.md)
-3. Discuss the design with maintainers (expect feedback within 3 business days)
-4. Implement the challenge following our [contribution standards](CONTRIBUTING.md)
-5. Submit a pull request
-
-**Review process:**
-- Two maintainers review each PR
-- Expect 1-2 rounds of constructive feedback
-- Maintainers aim to respond within 3 business days
-
-### Recognition
-
-**Hall of Fame:** Top contributors are featured in our [Contributors Hall of Fame](CONTRIBUTORS.md)  
-**Challenge Authors:** Each challenge credits its original author  
-**Community Leaders:** Active reviewers and mentors earn maintainer status
-
-See [MAINTAINERS.md](MAINTAINERS.md) for governance details.
-
-### Getting Help
-
-- **Technical questions:** [Discord #contributors channel](https://discord.gg/yourlink)
-- **Process questions:** See [SUPPORT.md](SUPPORT.md)
-- **Security concerns:** Follow [SECURITY.md](SECURITY.md) guidelines
-
-By contributing, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
+**Read our full guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-## Acknowledgments
+## Project Lifecycle
 
-Built with care by data engineers, for data engineers.
+Projects progress through clear states:
 
-**Special thanks to:**
-- All [contributors](https://github.com/yourusername/os-portfolio-projects/graphs/contributors) who've designed challenges
-- Maintainers who review PRs and mentor newcomers
-- Community members who provide feedback and support
+```
+PROPOSED → APPROVED → SETUP → RECRUITING → ACTIVE → PHASE_2 → COMPLETE → MAINTAINED ⇄ ARCHIVED
+```
 
-### Support This Project
-- Star this repo on GitHub
-- Share on [Twitter](https://twitter.com/intent/tweet?text=Check%20out%20OS-Portfolio-Projects)
-- [Sponsor on GitHub](https://github.com/sponsors/yourusername)
-- [Join our Discord](https://discord.gg/yourlink)
+**Learn more:** [PROJECT-LIFECYCLE.md](docs/PROJECT-LIFECYCLE.md)
+
+---
+
+## Quality Standards
+
+### All Projects Include:
+
+**Technical:**
+- Live data generation (no static CSVs)
+- Phase 2 twist (requirements evolution)
+- FinOps constraints (cost awareness)
+- Automated validators (correctness, performance, cost)
+- Architecture Decision Records (ADRs)
+
+**Documentation:**
+- Business context
+- Setup instructions
+- Contribution guide
+- Roadmap with phases
+- Contributor recognition
+
+**Team:**
+- Code review process
+- Clear task ownership
+- Async-first communication
+- Conflict resolution process
+
+---
+
+## Governance
+
+### Maintainers
+
+OS-Portfolio-Projects is maintained by data engineers who:
+- Review project proposals (3 business days)
+- Create project repositories
+- Assign project leads
+- Monitor project health
+- Resolve disputes
+- Make archive decisions
+
+→ [See Maintainers](MAINTAINERS.md)
+
+### Code of Conduct
+
+We are committed to providing a welcoming, inclusive community.
+
+**Expected behavior:**
+- Be respectful and professional
+- Welcome newcomers
+- Accept constructive feedback
+- Focus on what's best for projects
+- Show empathy
+
+**Not tolerated:**
+- Harassment or discrimination
+- Trolling or insulting comments
+- Personal attacks
+- Publishing others' private information
+
+→ [Full Code of Conduct](CODE_OF_CONDUCT.md)
+
+---
+
+## FAQ
+
+### How is this different from solo challenges?
+
+**Traditional challenges:** Complete pre-built exercises alone  
+**OS-Portfolio-Projects:** Build new systems with teams
+
+You get real collaboration experience, team coordination, and leadership opportunities—not just solo coding.
+
+### Do I need to commit full-time?
+
+No. Projects are async-first. Most contributors work 5-10 hours/week. Time commitments are discussed during application.
+
+### What if I'm a beginner?
+
+Perfect! We have beginner-level projects. Teams include mixed experience levels. You'll learn from others while contributing meaningfully.
+
+### Can I work on multiple projects?
+
+Yes! Many contributors work on 2-3 projects. Just be realistic about time commitments.
+
+### What if a project stalls?
+
+Project leads coordinate. If activity drops, maintainers check in. Projects can go dormant and be revived later, or archived gracefully.
+
+### How do I prove I contributed?
+
+- GitHub contribution graph (automatic)
+- CONTRIBUTORS.md with your name and role
+- Detailed contribution descriptions
+- LinkedIn mention templates
+- Your own portfolio with links to the project
+
+### Can I become a project lead without proposing?
+
+Yes! You can take over dormant projects or be promoted from contributor to lead on active projects.
+
+---
+
+## Resources
+
+### For Everyone
+- [Project Catalog](PROJECTS.md)
+- [How to Contribute](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Discord Community](https://discord.gg/yourlink)
+
+### For Proposers
+- [Project Proposal Guide](docs/PROJECT-PROPOSAL-GUIDE.md)
+- [Project Proposal Template](.github/ISSUE_TEMPLATE/project_proposal.md)
+
+### For Contributors
+- [How to Join Projects](docs/JOINING-PROJECTS.md)
+- [Learning Paths](docs/LEARNING-PATHS.md)
+- [ADR Guide](docs/ADR-GUIDE.md)
+- [FinOps Playbook](docs/FINOPS-PLAYBOOK.md)
+
+### For Project Leads
+- [Project Lead Guide](docs/PROJECT-LEAD-GUIDE.md)
+- [Project Lifecycle](docs/PROJECT-LIFECYCLE.md)
+
+---
+
+## Support This Community
+
+### Star This Repo
+Help others discover collaborative data engineering projects
+
+### Share Your Experience
+Tell your network about projects you've worked on
+
+### Sponsor
+Support infrastructure costs  
+→ [GitHub Sponsors](https://github.com/sponsors/DatechCommunity)
+
+### Spread the Word
+- Twitter: Use `#OSPortfolioProjects`
+- LinkedIn: Tag OS-Portfolio-Projects
+- Blog: Write about your experience
 
 ---
 
 <div align="center">
 
-**[Documentation](docs/) • [Challenges](#repository-structure) • [Contributing](CONTRIBUTING.md) • [Community](https://discord.gg/yourlink)**
+**[Browse Projects](PROJECTS.md) • [Propose Project](.github/ISSUE_TEMPLATE/project_proposal.md) • [Join Community](https://discord.gg/yourlink)**
 
-[![GitHub stars](https://img.shields.io/github/stars/DatechCommunity/OS-portfolio-projects?style=social)](https://github.com/DatechCommunity/OS-portfolio-projects/))
+[![GitHub stars](https://img.shields.io/github/stars/DatechCommunity/OS-portfolio-projects?style=social)](https://github.com/DatechCommunity/OS-portfolio-projects)
 [![Twitter Follow](https://img.shields.io/twitter/follow/yourhandle?style=social)](https://twitter.com/yourhandle)
 
-*Licensed under [MIT](LICENSE) • Maintained by the Datech Team*
+*Licensed under [MIT](LICENSE) • Maintained by the Datech Community*
+
+**Build production systems. With real teams. For real portfolios.**
 
 </div>

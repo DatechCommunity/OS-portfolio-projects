@@ -17,7 +17,7 @@
 
 ---
 
-**Quick Links:** [Browse Projects](PROJECTS.md) · [Propose Project](#propose-a-project) · [Join a Project](#join-a-project) · [Discord Community](https://discord.gg/yourlink) · [Contributing](CONTRIBUTING.md)
+**Quick Links:** [Browse Projects](PROJECTS.md) · [Propose Project](#propose-a-project) · [Join a Project](#join-a-project) · [Discord Community]( https://discord.gg/RqfGvpmN) · [Contributing](CONTRIBUTING.md)  
 
 ---
 
@@ -293,7 +293,7 @@ Join our community for:
 - **#contributors** - For those building projects
 - **#leads** - For project leads
 
-→ [Join Discord](https://discord.gg/yourlink)
+→ [Join Discord]( https://discord.gg/RqfGvpmN)
 
 ### GitHub Discussions
 
@@ -490,8 +490,7 @@ Yes! You can take over dormant projects or be promoted from contributor to lead 
 ### For Everyone
 - [Project Catalog](PROJECTS.md)
 - [How to Contribute](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Discord Community](https://discord.gg/yourlink)
+- [Discord Community](https://discord.gg/RqfGvpmN)
 
 ### For Proposers
 - [Project Proposal Guide](docs/PROJECT-PROPOSAL-GUIDE.md)

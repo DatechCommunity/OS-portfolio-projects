@@ -35,7 +35,7 @@ Traditional data engineering portfolios showcase isolated skills—SQL queries, 
 
 ### Our Solution: Real Collaborative Projects
 
-OS-Portfolio-Projects is a community where data engineers propose and build **real production-grade systems** together:
+Open Source Portfolio Projects is a Datech's community initiative where data engineers propose and build **real production-grade systems** together:
 
 - **Multi-contributor teams** - Work with 2-10 engineers like in real companies
 - **Separate repositories** - Each project gets its own repo, roadmap, and team
@@ -235,9 +235,9 @@ OS-portfolio-projects/                    [Main coordination repo]
 
 **Individual projects live in separate repositories:**
 ```
-github.com/os-portfolio-projects/fraud-detection-pipeline
-github.com/os-portfolio-projects/data-mesh-platform
-github.com/os-portfolio-projects/ecommerce-analytics-warehouse
+github.com/DatechCommunity/fraud-detection-pipeline
+github.com/DatechCommunity/data-mesh-platform
+github.com/DatechCommunity/ecommerce-analytics-warehouse
 ```
 
 Each project repository contains:
@@ -329,7 +329,7 @@ Join our community for:
 - Portfolio-ready project to reference
 - LinkedIn mention template:
   ```
-  Contributed to [Project Name] at OS-Portfolio-Projects as [Role], 
+  Contributed to [Project Name] at Datech's initiative, Open Source Portfolio Projects as [Role], 
   building [specific contributions]. Worked with [technologies] to 
   implement [features].
   ```
@@ -522,8 +522,8 @@ Support infrastructure costs
 → [GitHub Sponsors](https://github.com/sponsors/DatechCommunity)
 
 ### Spread the Word
-- Twitter: Use `#OSPortfolioProjects`
-- LinkedIn: Tag OS-Portfolio-Projects
+- Twitter: Use `#Open Source Portfolio Projects`
+- LinkedIn: Tag Datech OS-Portfolio-Projects
 - Blog: Write about your experience
 
 ---

@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Contributors](https://img.shields.io/github/contributors/DatechCommunity/OS-portfolio-projects)](https://github.com/DatechCommunity/OS-portfolio-projects/graphs/contributors)
-[![Discord](https://img.shields.io/discord/YOUR_ID?label=Community&logo=discord)](https://discord.gg/yourlink)
+[![Discord](https://img.shields.io/discord/YOUR_ID?label=Community&logo=discord)](https://discord.com/invite/rQc7pjCy)
 [![Active Projects](https://img.shields.io/badge/Active%20Projects-0-blue)](PROJECTS.md)
 
 > **Build production-grade data systems with real teams, real complexity, and real portfolio value.**  
@@ -293,7 +293,7 @@ Join our community for:
 - **#contributors** - For those building projects
 - **#leads** - For project leads
 
-→ [Join Discord]( https://discord.gg/RqfGvpmN)
+→ [Join Discord](https://discord.com/invite/rQc7pjCy)
 
 ### GitHub Discussions
 
